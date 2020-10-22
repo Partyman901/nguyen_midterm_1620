@@ -1,0 +1,55 @@
+/*font-family: 'Commissioner', sans-serif;
+font-family: 'Piazzolla', serif;*/
+
+* {
+    background: #C09187;
+}
+
+.nav_bar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+.nav_bar h2{
+    font-family: 'Commissioner', sans-serif;
+    background: #F6F0ED;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav_bar li{
+    background: #F6F0ED;
+    float: left;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline;
+    font-family: 'Commissioner', sans-serif
+}
+
+.nav_bar a:visited, .navbar a:link{
+    background: #F6F0ED;
+    color: #28536B;
+}
+
+
+div .image_one{
+    max-width: 20%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding: 10px;
+}
+
+div .image_two{
+    max-width: 20%;
+    height: auto;
+    float: right;
+    padding: 10px;
+
+}
+
+div p{
+    font-family: 'Piazzolla', serif;
+    clear: both;
+}
